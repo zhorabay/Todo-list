@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <header>
-      <h1>todos</h1>
-      <p>Items will persist in the browser local storage</p>
+      <h1 className="title">todos</h1>
+      <p className="description">Items will persist in the browser local storage</p>
     </header>
   );
 };
